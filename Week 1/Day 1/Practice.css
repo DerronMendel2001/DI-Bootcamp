@@ -1,0 +1,39 @@
+div {
+	border: solid green 5px;
+	padding: 20px;
+	margin: 30px;
+	background-color: lightgreen;
+}
+
+.text {
+	padding-left: 20px;
+	text-align: center;
+}
+
+.align {
+	display: inline-block;
+	text-align: center;
+	margin: none;
+	border: none;
+}
+
+#blue {
+	background-color: blue;
+	height: 300px;
+	width: 200px;
+	/*padding: 20px 15px;*/
+}
+
+#white {
+	background-color: white;
+	height: 300px;
+	width: 200px;
+/*	padding: 300px 15px200/*/
+}
+
+#red {
+	background-color: red;
+	height: 300px;
+	width: 200px;
+/*	padding: 20px 15px;
+}

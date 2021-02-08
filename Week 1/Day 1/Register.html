@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+	<div>
+		<form method="POST">
+			<!-- Hahahahahahahahahahahahaha -->
+			Full Legal Name: <input type="text" required name="name"><br>
+			Social Security Number: <input type="text" required name="socialsecuritynumber"><br>
+			Driver's Liscence Number: <input type="text" required name="driversliscencenumber"><br>
+			Email: <input type="text" required name="email"><br>
+			Password: <input type="password" min="100" required name="password"><br>
+			Birthday: <input type="date" required name="birthday"><br>
+			Gender: <br>
+			<input type="radio" name="gender" required>Little Baby Boy<br>
+			<input type="radio" name="gender" required>Little Baby Girl<br>
+			Surviving Family Members: <br>
+			<input type="checkbox" name="secondcousinfivetimesremoved" value="secondcousinfivetimesremoved">Second Cousin Five Times Removed<br>
+			<input type="checkbox" name="other" value="Other">Other<br>
+			Emotion You Currently Feel:<br>
+			<select required name="emotion">
+				<option value="Didn't fill out the form correctly" name="incorrectform">Select</option>
+				<option value="Fear">Fear</option>
+				<option value="Terror">Terror</option>
+				<option value="Horror">Horror</option>
+				<option value="Capacity to lie" name="capacitytolie">Other</option>
+			</select><br>
+			<input type="submit" value="Sign Away Your Freedom">
+			<input type="reset" value="Correct The Information">
+		</form>
+	</div>
+</body>
+</html>
