@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grids</title>
+<style>
+
+#left1 { grid-area: left; }
+#left2 { grid-area: lefter; }
+#left3 { grid-area: leftest; }
+#right1 { grid-area: right; }
+#right2 { grid-area: righter; }
+#right3 { grid-area: rightest; }
+#bottom { 
+	grid-area: bottom;
+	background-color: yellow;
+	border: 2px solid orange;
+}
+
+.red {
+	background-color: pink;
+	border: 2px solid red;
+}
+
+.blue {
+	background-color: lightblue;
+	border: 2px solid blue;
+}
+
+#gridouter {
+	display: grid;
+	grid-template-areas: 
+	'left right right right'
+	'lefter righter righter righter'
+	'leftest rightest rightest rightest'
+	'bottom bottom bottom bottom';
+	grid-gap: 10px;
+	height: 50vh;
+	width: 75vw;
+	padding: 10px;
+	border: 2px solid black;
+}
+
+</style>
+</head>
+<body>
+	<div id="gridouter">
+		<div id="left1" class="red">1</div>
+		<div id="left2" class="red">2</div>
+		<div id="left3" class="red">3</div>
+		<div id="right1" class="blue">4</div>
+		<div id="right2" class="blue">5</div>
+		<div id="right3" class="blue">6</div>
+		<div id="bottom">7</div>
+	</div>
+	<p>Check if you can use a blank div as a placeholder when using a grid template layout</p>
+</body>
+</html>

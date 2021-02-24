@@ -1,0 +1,28 @@
+#Logo {
+	height: 100px;
+	width: 100px;
+	background-color: purple;
+}
+
+#Team {
+	height: 100px;
+	width: 500px;
+	background-color: lightblue;
+}
+
+#Products {
+	height: 100px;
+	width: 500px;
+	background-color: red;
+}
+
+#container {
+	border: 3px solid green;
+	width: 100vw;
+	height: 500px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+/*	border: 3px solid green;*/
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grid Templates</title>
+<style>
+
+#header {
+	grid-area: 1 ;
+	background-color: magenta;
+}
+
+#left {
+	grid-area: 2;
+	background-color: indigo;
+}
+
+#third {
+	grid-area: 3;
+	background-color: pink;
+}
+
+#fourth {
+	grid-area: 4;
+	background-color: lightblue;
+}
+
+#fifth {
+	grid-area: 5;
+	background-color: magenta;
+}
+
+#sixth {
+	grid-area: 6;
+	background-color: lightblue;
+}
+
+#seventh {
+	grid-area: 7;
+	background-color: pink;
+}
+
+#eighth {
+	grid-area: 8;
+	background-color: indigo;
+}
+
+#container {
+	width: 100vw;
+	height: 750px;
+	display: grid;
+	grid-template-areas: 
+	'1 1 1'
+	'2 3 4'
+	'2 5 5'
+	'6 6 7'
+	'8 8 8';
+	grid-gap: 5px;
+	border: 2px solid black;
+}
+
+</style>
+</head>
+<body>
+	<div id="container">
+		<div id="header">1</div>
+		<div id="left">2</div>
+		<div id="third">3</div>
+		<div id="fourth">4</div>
+		<div id="fifth">5</div>
+		<div id="sixth">6</div>
+		<div id="seventh">7</div>
+		<div id="eighth">8</div>
+	</div>
+</body>
+</html>
