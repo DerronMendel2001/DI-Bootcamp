@@ -1,0 +1,39 @@
+General:
+
+Change to a different folder: cd [path]
+path: steps separated by /. Type a directory name to go forward, .. to go back.
+Example: cd ../Coding-Bootcamp/Week-5
+cd by itself moves to ~
+Clear the terminal: clear
+
+
+
+File: (all from parent folder)
+
+Create (text): echo [text] > [File Name]
+Delete: rm [File Name] (Doesn't ask for confirmation. Be careful!)
+Rename: mv [Old File Name] [New File Name]
+Move: mv [File Name] [path]
+Copy: cp [File Name] [path]
+Print (text): cat [File Name]
+Count Lines (text): wc -l [File Name]
+
+
+
+Folder: (other than "check contents", from parent)
+
+Create: mkdir [folderName]
+Delete: rmdir [folderName] (Does not ask for confirmation. Be careful!) (Must be empty)
+Rename: mv [Old Folder Name] [New Folder Name]
+Move: mv [Folder Name] [path]
+Copy: cp -r [Folder Name] [path]
+Check Contents: dir
+
+
+
+Python:
+
+Open Shell: python (winpty python.exe)(aliased as python)
+Exit Shell: CTRL+Z, then ENTER
+Run Code: python [code file name]
+Open .bashrc (list of aliases): from /, notepad ~/.bashrc
