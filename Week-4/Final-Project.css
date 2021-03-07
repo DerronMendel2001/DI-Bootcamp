@@ -1,0 +1,94 @@
+body {
+	background-image: radial-gradient(circle, rgb(250, 196, 20), rgb(52, 240, 19), rgb(19, 240, 170));
+}
+
+#megaContainer {
+	width: 60vw;
+	margin: auto;
+}
+
+header {
+	position: fixed;
+	top: 5px;
+	width: 60vw;
+}
+
+h1 {
+	font-size: 35px;
+}
+
+#NewRecording {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	height: 110px;
+	background-color: rgb(161, 161, 161);
+	border: solid rgba(33, 37, 41, 1) 2px;
+	border-radius: 30px;
+}
+
+#record {
+	background-color: rgb(240, 0, 0);
+	height: 40px;
+	width: 40px;
+	padding: 0px;
+	border: 5px solid rgb(212, 212, 212);
+	border-radius: 50%
+}
+
+#record:hover {
+	border: 5px solid rgb(240, 245, 255);
+}
+
+#container {
+	display: flex;
+	flex-direction: column-reverse;
+	padding-top: 115px;
+}
+
+.recording {
+	background-color: rgb(100, 100, 100);
+	border: solid rgba(33, 37, 41, 1) 2px;
+	border-radius: 30px;
+	height: 79px;
+	margin-top: 4px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.name {
+	font-size: 25px;
+	color: black;
+	padding: 5px;
+	padding-left: 20px;
+}
+
+.progressBarDiv {
+	padding-left: 20px;
+	width: 250px;
+}
+
+.progressSlider {
+	width: 250px;
+	height: ;
+}
+
+.recording button {
+	width: 80px;
+	height: 33px;
+	margin-top: 23px;
+	margin-bottom: 10px;
+	background-color: rgb(210, 210, 210);
+	border-radius: 5px;
+	border: solid rgb(3, 3, 3) 2px;
+	color: black;
+}
+
+.textField {
+	background-color: rgb(245, 245, 245);
+	border: solid rgb(3, 3, 3) 2px;
+	border-right: 0px;
+	border-radius: 5px;
+}

@@ -1,0 +1,26 @@
+.recording {
+	background-color: gray;
+	border-top: solid rgba(33, 37, 41, 1) 2px;
+	border-bottom: solid rgba(33, 37, 41, 1) 2px;
+}
+
+#RecordingName {
+	font-size: 35px;
+}
+
+#NewRecording {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	height: 110px;
+}
+
+#record {
+	background-color: rgb(240, 0, 0);
+	height: 40px;
+	width: 40px;
+	padding: 0px;
+	border: 5px solid rgb(212, 212, 212);
+	border-radius: 50%
+}
